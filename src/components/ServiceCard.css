@@ -1,0 +1,30 @@
+.service-card{
+  background:white;
+  padding:40px;
+  border-radius:10px;
+  box-shadow:0 4px 20px rgba(0,0,0,0.05);
+  transition:0.3s;
+}
+
+.service-card:hover{
+  transform:translateY(-5px);
+}
+
+.service-card h3{
+  font-family:'Playfair Display', serif;
+  font-size:1.8rem;
+  margin-bottom:20px;
+}
+
+.service-card p{
+  line-height:1.8;
+  margin-bottom:25px;
+}
+
+.service-card button{
+  padding:12px 25px;
+  border:none;
+  background:#1F2A44;
+  color:white;
+  cursor:pointer;
+}
