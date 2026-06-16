@@ -21,9 +21,8 @@ function Contacto() {
     )
 
     .then(() => {
-
       alert("Mensaje enviado correctamente")
-
+      form.current.reset()
     })
 
     .catch((error) => {
